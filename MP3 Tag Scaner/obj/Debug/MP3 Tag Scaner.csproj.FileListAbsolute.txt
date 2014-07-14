@@ -1,0 +1,18 @@
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\MP3 Tag Scaner.exe.config
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\MP3 Tag Scaner.exe
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\MP3 Tag Scaner.pdb
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner.csprojResolveAssemblyReference.cache
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MainWindow.baml
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MainWindow.g.cs
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\App.g.cs
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner_MarkupCompile.cache
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner.g.resources
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3_Tag_Scaner.Properties.Resources.resources
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner.csproj.GenerateResource.Cache
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner.exe
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\obj\Debug\MP3 Tag Scaner.pdb
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\EntityFramework.dll
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\policy.2.0.taglib-sharp.dll
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\taglib-sharp.dll
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\EntityFramework.xml
+D:\My Projects\MP3 Tag Scaner\MP3 Tag Scaner\MP3 Tag Scaner\bin\Debug\policy.2.0.taglib-sharp.config
