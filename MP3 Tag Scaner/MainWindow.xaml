@@ -1,27 +1,28 @@
 ﻿<Window x:Class="MP3_Tag_Scaner.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid x:Name="FormMain">
+        Title="MainWindow" Height="568" Width="645">
+    <Grid x:Name="FormMain" ScrollViewer.HorizontalScrollBarVisibility="Visible">
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="62*"/>
+            <ColumnDefinition Width="29*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="BtnOpenDir" Content="..." HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="24" Click="Button_Click_2" Height="26"/>
-        <ListView x:Name="LvSongList" Margin="10,41,311,10">
+        <Button x:Name="BtnOpenDir" Content="..." Margin="0,10.96,10,0" VerticalAlignment="Top" Click="Button_Click_2" Height="26" HorizontalAlignment="Right" Width="29"/>
+        <ListView x:Name="LvSongList" Margin="10,41.96,10,10">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label x:Name="LWorkDirName" Content="&lt;Folder Name&gt;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="167" BorderThickness="1,0,0,1"/>
-        <CheckBox x:Name="CheckToTranslit" Content="Переводить в транслит" Margin="227,41,22,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="CheckToGetNameFromTag" Content="Получить имя из тега" Margin="227,61,22,0" VerticalAlignment="Top"/>
-        <Button x:Name="BtnStart" Content="ПЫЩ!" HorizontalAlignment="Left" Margin="337,236,0,0" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
-        <Label x:Name="labelTmp" Content="Label" HorizontalAlignment="Left" Margin="279,134,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LWorkDirName" Content="&lt;Folder Name&gt;" Margin="10,10,39,0" VerticalAlignment="Top" BorderThickness="1,0,0,1" BorderBrush="Black" Height="26.96"/>
+        <CheckBox x:Name="CheckToTranslit" Content="Переводить в транслит" Margin="23,41.96,10,0" VerticalAlignment="Top" Height="15.098" Grid.Column="1"/>
+        <Button x:Name="BtnStart" Content="ПЫЩ!" Margin="23,13,10,0" VerticalAlignment="Top" Click="btnStart_Click" Height="19.96" Grid.Column="1"/>
+        <CheckBox x:Name="CheckToGetNameFromTag" Content="Получить имя из тега" Margin="23,62.058,10,0" VerticalAlignment="Top" RenderTransformOrigin="0.525,-1.196" Height="15.098" Grid.Column="1"/>
+        <DockPanel x:Name="MainDock" HorizontalAlignment="Left" LastChildFill="False" VerticalAlignment="Top" Height="0" Width="0"/>
 
     </Grid>
 </Window>
