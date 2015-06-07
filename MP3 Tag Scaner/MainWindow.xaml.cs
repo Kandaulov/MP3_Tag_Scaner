@@ -50,6 +50,7 @@ namespace MP3_Tag_Scaner
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
+
             var mp3info = new Mp3Info();
             var mp3Moder = new Mp3Modifications();
             foreach (var file in _fileList)
@@ -57,13 +58,27 @@ namespace MP3_Tag_Scaner
                 mp3info.SetTagsFromName(file);
 
 
-                if (CheckToGetNameFromTag != null && CheckToGetNameFromTag.IsChecked.Value)
+                if (CheckToGetNameFromTag.IsChecked.Value)
                 {
-                    //      GetNamesFromTags(file);
+                    try
+                    {
+                       mp3Moder.GetNamesFromTags(file);
+                    }
+                    catch (Exception exp)
+                    {
+                        MessageBox.Show(exp.Message.ToString(), "There was a error");
+                    }
                 }
-                if (CheckToTranslit.IsChecked != null && CheckToTranslit.IsChecked.Value)
+                if (CheckToTranslit.IsChecked.Value)
                 {
-                    mp3Moder.ChangeNamesToTranslit(file);
+                    try
+                    {
+                        mp3Moder.ChangeNamesToTranslit(file);
+                    }
+                    catch (Exception exp)
+                    {
+                        MessageBox.Show(exp.Message.ToString(), "There was a error");
+                    }
                 }
             }
         }
